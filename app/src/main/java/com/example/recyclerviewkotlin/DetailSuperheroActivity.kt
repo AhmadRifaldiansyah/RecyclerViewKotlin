@@ -26,6 +26,6 @@ class DetailSuperheroActivity : AppCompatActivity() {
 
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
-        return true
+        return false
     }
 }
