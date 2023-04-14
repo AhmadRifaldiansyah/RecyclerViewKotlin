@@ -7,5 +7,6 @@ import kotlinx.android.parcel.Parcelize
 data class Superhero(
     val imgSuperhero: Int,
     val nameSuperhero: String,
-    val descSuperhero: String
+    val descSuperhero: String,
+    val rateSuperhero: String
 ): Parcelable

@@ -19,47 +19,56 @@ class MainActivity : AppCompatActivity() {
             Superhero(
                 R.drawable.jett,
                 nameSuperhero = "jett" ,
-                descSuperhero = "HP : 110"
+                descSuperhero = "HP : 110",
+                rateSuperhero = "RATE : 10/10"
             ),
             Superhero(
                 R.drawable.yoru,
                 nameSuperhero = "yoru" ,
-                descSuperhero = "HP : 104"
+                descSuperhero = "HP : 104",
+                rateSuperhero = "RATE : 5/10"
             ),
             Superhero(
                 R.drawable.heal,
                 nameSuperhero = "heal" ,
-                descSuperhero = "HP : 110+15"
+                descSuperhero = "HP : 110+15",
+                rateSuperhero = "RATE : 7/10"
             ),
             Superhero(
                 R.drawable.sage,
                 nameSuperhero = "sage" ,
-                descSuperhero = "HP : 100"
+                descSuperhero = "HP : 100",
+                rateSuperhero = "RATE :/10"
             ),
             Superhero(
                 R.drawable.cype,
                 nameSuperhero = "cypher" ,
-                descSuperhero = "HP : 120"
+                descSuperhero = "HP : 120",
+                rateSuperhero = "RATE : 10/10"
             ),
             Superhero(
                 R.drawable.kayo,
                 nameSuperhero = "kay/o" ,
-                descSuperhero = "HP : 110+90"
+                descSuperhero = "HP : 110+90",
+                rateSuperhero = "RATE : 2/10"
             ),
             Superhero(
                 R.drawable.kiljoy,
                 nameSuperhero = "killjoy" ,
-                descSuperhero = "HP : 120"
+                descSuperhero = "HP : 120",
+                rateSuperhero = "RATE : 9/10"
             ),
             Superhero(
                 R.drawable.jok,
                 nameSuperhero = "jok" ,
-                descSuperhero = "HP : 160"
+                descSuperhero = "HP : 160",
+                rateSuperhero = "RATE : 1/10"
             ),
             Superhero(
                 R.drawable.nora,
                 nameSuperhero = "nora" ,
-                descSuperhero = "HP : 150"
+                descSuperhero = "HP : 150",
+                rateSuperhero = "RATE : 4/10"
             ),
         )
 

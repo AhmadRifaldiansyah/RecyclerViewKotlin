@@ -18,10 +18,12 @@ class DetailSuperheroActivity : AppCompatActivity() {
         val imgSuperhero = findViewById<ImageView>(R.id.img_item_photo)
         val nameSuperhero = findViewById<TextView>(R.id.tv_item_name)
         val descSuperhero = findViewById<TextView>(R.id.tv_item_description)
+        val rateSuperhero = findViewById<TextView>(R.id.tv_item_rateSuperhero)
 
         imgSuperhero.setImageResource(superhero?.imgSuperhero!!)
         nameSuperhero.text = superhero.nameSuperhero
         descSuperhero.text = superhero.descSuperhero
+        rateSuperhero.text = superhero.rateSuperhero
     }
 
     override fun onSupportNavigateUp(): Boolean {
