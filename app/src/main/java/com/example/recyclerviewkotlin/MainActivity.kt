@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
             recyclerView.setHasFixedSize(true)
             recyclerView.adapter = SuperheroAdapter(this, superheroList){
 
-                val inten = Intent (this, DetailSuperheroActivity::class.java)
+                val intent = Intent (this, DetailSuperheroActivity::class.java)
                 intent.putExtra(INTENT_PARCELABLE, it)
                 startActivity(intent)
             }
